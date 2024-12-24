@@ -1,0 +1,68 @@
+#mainBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #1d1d1d;
+    background-color: aquamarine;
+    min-height: 10vh;
+    margin-bottom: 20px;
+}
+
+#containerBox {
+    display: flex;
+    flex-direction: column;
+}
+
+#formBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#bookForm {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, button {
+    margin: 5px 0;
+}
+
+#book-container {
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Book Styling */
+.book {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Book Title Styling */
+.book-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 5px;
+}
+
+/* Author Styling */
+.author {
+    font-size: 1em;
+    font-style: italic;
+    color: #666;
+    margin: 0;
+}
+
+/* Optional: Hover Effect */
+.book:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s;
+}
